@@ -1,0 +1,799 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Plug Streaming - UI Pattern Library - Group 3</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="app-container">
+      <aside class="sidebar">
+        <!-- Logo -->
+        <div class="brand">
+          <img src="img/PlugStreaming.png" alt="Plug Streaming Logo" />
+          <span>PLUG STREAMING</span>
+        </div>
+
+        <!-- Navigation menu -->
+        <nav class="navigation">
+          <p class="menu-title">DESIGN SYSTEM</p>
+
+          <a href="#" class="nav-link active">Overview</a>
+          <a href="#colors" class="nav-link">Colors</a>
+          <a href="#typography" class="nav-link">Typography</a>
+          <a href="#layouts" class="nav-link">Page Layouts</a>
+          <a href="#visualization" class="nav-link">Data Visualization</a>
+          <a href="#components" class="nav-link">UI Components</a>
+        </nav>
+      </aside>
+
+      <main class="main-content">
+        <!-- Header -->
+        <header class="top-header">
+          <button class="menu-toggle" id="menuToggle">☰</button>
+          <span>PLUG STREAMING / DESIGN SYSTEM</span>
+        </header>
+
+        <!-- Page content -->
+        <section class="content">
+          <p class="eyebrow">DESIGN SYSTEM</p>
+
+          <h1>Welcome to Plug Streaming</h1>
+
+          <p class="description">
+            A design system for creating elegant, consistent and powerful data
+            dashboards.
+          </p>
+
+          <div class="welcome-card">
+            <h2>UI Pattern Library</h2>
+            <p>
+              Explore our colors, typography, layouts and reusable UI
+              components.
+            </p>
+          </div>
+        </section>
+
+        <!-- Color System Section -->
+        <section class="content color-section" id="colors">
+          <p class="eyebrow">DESIGN TOKENS</p>
+
+          <h1>Color System</h1>
+
+          <p class="description">
+            A carefully selected color palette that reflects the Plug Streaming
+            brand identity.
+          </p>
+
+          <!-- Primary Colors -->
+          <div class="color-group">
+            <h2>Primary Colors</h2>
+
+            <div class="color-grid">
+              <div class="color-card">
+                <div
+                  class="color-swatch"
+                  style="background-color: #ff7119"
+                ></div>
+                <div class="color-info">
+                  <h3>Brand Orange</h3>
+                  <p>#FF7119</p>
+                  <span>Primary brand color</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Neutral Colors -->
+          <div class="color-group">
+            <h2>Neutral Colors</h2>
+
+            <div class="color-grid">
+              <div class="color-card">
+                <div
+                  class="color-swatch"
+                  style="background-color: #171717"
+                ></div>
+                <div class="color-info">
+                  <h3>Background</h3>
+                  <p>#171717</p>
+                  <span>Main background</span>
+                </div>
+              </div>
+
+              <div class="color-card">
+                <div
+                  class="color-swatch"
+                  style="background-color: #1c1c1c"
+                ></div>
+                <div class="color-info">
+                  <h3>Sidebar</h3>
+                  <p>#1C1C1C</p>
+                  <span>Navigation background</span>
+                </div>
+              </div>
+
+              <div class="color-card">
+                <div
+                  class="color-swatch"
+                  style="background-color: #262626"
+                ></div>
+                <div class="color-info">
+                  <h3>Surface</h3>
+                  <p>#262626</p>
+                  <span>Card background</span>
+                </div>
+              </div>
+
+              <div class="color-card">
+                <div
+                  class="color-swatch"
+                  style="background-color: #f5f5f5"
+                ></div>
+                <div class="color-info">
+                  <h3>Text</h3>
+                  <p>#F5F5F5</p>
+                  <span>Primary text</span>
+                </div>
+              </div>
+
+              <div class="color-card">
+                <div
+                  class="color-swatch"
+                  style="background-color: #a1a1aa"
+                ></div>
+                <div class="color-info">
+                  <h3>Muted</h3>
+                  <p>#A1A1AA</p>
+                  <span>Secondary text</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Typography Section -->
+        <section class="content typography-section" id="typography">
+          <p class="eyebrow">DESIGN TOKENS</p>
+
+          <h1>Typography</h1>
+
+          <p class="description">
+            A consistent typography system for clear and elegant dashboard
+            experiences.
+          </p>
+
+          <!-- Font Family -->
+          <div class="type-group">
+            <h2>Font Families</h2>
+
+            <div class="type-card">
+              <h3>Primary Font - Arial</h3>
+              <p class="font-primary">
+                The quick brown fox jumps over the lazy dog.
+              </p>
+              <span>Used for headings, navigation and body text.</span>
+            </div>
+
+            <div class="type-card">
+              <h3>Chart Font - Georgia</h3>
+              <p class="font-serif">123,456,789 - YouTube Channel Statistics</p>
+              <span>Used for chart data and numerical information.</span>
+            </div>
+          </div>
+
+          <!-- Font Sizes -->
+          <div class="type-group">
+            <h2>Font Sizes</h2>
+
+            <div class="type-card">
+              <p class="sample-h1">Heading 1 - 32px</p>
+              <p class="sample-h2">Heading 2 - 24px</p>
+              <p class="sample-h3">Heading 3 - 18px</p>
+              <p class="sample-body">Body Text - 15px</p>
+              <p class="sample-small">Small Text - 12px</p>
+            </div>
+          </div>
+
+          <!-- Font Weights -->
+          <div class="type-group">
+            <h2>Font Weights</h2>
+
+            <div class="type-card">
+              <p class="weight-regular">Regular - 400</p>
+              <p class="weight-medium">Medium - 500</p>
+              <p class="weight-semibold">Semibold - 600</p>
+              <p class="weight-bold">Bold - 700</p>
+            </div>
+          </div>
+
+<!-- Typography Usage -->
+<div class="type-group">
+    <h2>Typography Usage</h2>
+
+    <div class="type-card">
+        <h3>Heading 1 - Page Titles</h3>
+        <p class="usage-h1">Dashboard Overview</p>
+        <span>Arial, 32px, Bold (700)</span>
+    </div>
+
+    <div class="type-card">
+        <h3>Heading 2 - Section Titles</h3>
+        <p class="usage-h2">Data Visualization</p>
+        <span>Arial, 24px, Semibold (600)</span>
+    </div>
+
+    <div class="type-card">
+        <h3>Heading 3 - Card Titles</h3>
+        <p class="usage-h3">Total Subscribers</p>
+        <span>Arial, 18px, Semibold (600)</span>
+    </div>
+
+    <div class="type-card">
+        <h3>Body Text - Descriptions</h3>
+        <p class="usage-body">Displays important information and dashboard descriptions.</p>
+        <span>Arial, 15px, Regular (400)</span>
+    </div>
+
+    <div class="type-card">
+        <h3>Small Text - Labels</h3>
+        <p class="usage-small">LAST UPDATED: NOVEMBER 2026</p>
+        <span>Arial, 12px, Regular (400)</span>
+    </div>
+</div>
+
+<!-- Symbols -->
+<div class="type-group">
+    <h2>Symbols</h2>
+
+    <div class="type-card">
+        <h3>Dashboard Symbols</h3>
+
+        <div class="symbol-grid">
+            <div class="symbol-item">
+                <span>↑</span>
+                <p>Increase</p>
+            </div>
+
+            <div class="symbol-item">
+                <span>↓</span>
+                <p>Decrease</p>
+            </div>
+
+            <div class="symbol-item">
+                <span>→</span>
+                <p>Direction</p>
+            </div>
+
+            <div class="symbol-item">
+                <span>✓</span>
+                <p>Success</p>
+            </div>
+
+            <div class="symbol-item">
+                <span>×</span>
+                <p>Close</p>
+            </div>
+
+            <div class="symbol-item">
+                <span>−</span>
+                <p>Negative</p>
+            </div>
+
+            <div class="symbol-item">
+                <span>+</span>
+                <p>Add</p>
+            </div>
+
+            <div class="symbol-item">
+                <span>%</span>
+                <p>Percentage</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </section>
+
+        <!-- Page Layouts Section -->
+        <section class="content layout-section" id="layouts">
+          <p class="eyebrow">DESIGN SYSTEM</p>
+
+          <h1>Page Layouts</h1>
+
+          <p class="description">
+            Reusable page structures for presenting dashboard information
+            clearly and consistently.
+          </p>
+
+          <!-- Layout 1: Dashboard Grid -->
+          <div class="layout-group">
+            <h2>01. Dashboard Grid Layout</h2>
+
+            <p class="layout-description">
+              A grid-based layout for displaying multiple charts and KPI cards.
+            </p>
+
+            <div class="dashboard-preview">
+              <div class="preview-header">Dashboard Overview</div>
+
+              <div class="preview-kpis">
+                <div class="preview-box">KPI 01</div>
+                <div class="preview-box">KPI 02</div>
+                <div class="preview-box">KPI 03</div>
+                <div class="preview-box">KPI 04</div>
+              </div>
+
+              <div class="preview-charts">
+                <div class="preview-box large">Main Chart</div>
+                <div class="preview-box">Side Chart</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Layout 2: Two Column Layout -->
+          <div class="layout-group">
+            <h2>02. Two Column Layout</h2>
+
+            <p class="layout-description">
+              A two-column structure for comparing different data
+              visualizations.
+            </p>
+
+            <div class="two-column-preview">
+              <div class="preview-box">Chart Area 01</div>
+              <div class="preview-box">Chart Area 02</div>
+            </div>
+          </div>
+
+          <!-- Layout 3: Full Width Layout -->
+          <div class="layout-group">
+            <h2>03. Full Width Layout</h2>
+
+            <p class="layout-description">
+              A wide content area for displaying detailed charts or data tables.
+            </p>
+
+            <div class="full-width-preview">
+              <div class="preview-box">Full Width Chart / Data Table</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Data Visualization Section -->
+        <section class="content visualization-section" id="visualization">
+          <p class="eyebrow">DESIGN SYSTEM</p>
+
+          <h1>Data Visualization</h1>
+
+          <p class="description">
+            A collection of chart patterns for presenting business data clearly
+            and effectively.
+          </p>
+
+          <!-- Line Charts -->
+          <div class="chart-group">
+            <h2>01. Line Charts</h2>
+
+            <div class="chart-grid">
+              <div class="chart-card">
+                <img
+                  src="img/charts/line-normal.png"
+                  alt="Average Views by Year"
+                  class="chart-image"
+                />
+                <div class="chart-info">
+                  <h3>Normal Line Chart</h3>
+                  <p>Displays trends and changes over time.</p>
+                </div>
+              </div>
+
+              <div class="chart-card">
+                <img
+                  src="img/charts/line-stacked.png"
+                  alt="Stacked Average Views by Year"
+                  class="chart-image"
+                />
+                <div class="chart-info">
+                  <h3>Stacked Line Chart</h3>
+                  <p>
+                    Displays the cumulative contribution of multiple data
+                    series.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bar Charts -->
+          <div class="chart-group">
+            <h2>02. Bar Charts</h2>
+
+            <div class="chart-grid">
+              <div class="chart-card">
+                <img
+                  src="img/charts/bar-normal.png"
+                  alt="Top 5 YouTube Channels by Followers"
+                  class="chart-image"
+                />
+                <div class="chart-info">
+                  <h3>Normal Bar Chart</h3>
+                  <p>Compares values across different categories.</p>
+                </div>
+              </div>
+
+              <div class="chart-card">
+                <img
+                  src="img/charts/bar-stacked.png"
+                  alt="Top 5 YouTube Channels by Likes and Comments"
+                  class="chart-image"
+                />
+                <div class="chart-info">
+                  <h3>Stacked Bar Chart</h3>
+                  <p>Compares totals and their individual components.</p>
+                </div>
+              </div>
+
+              <div class="chart-card">
+                <img
+                  src="img/charts/bar-horizontal.png"
+                  alt="Top 5 YouTube Channels by Followers"
+                  class="chart-image"
+                />
+                <div class="chart-info">
+                  <h3>Horizontal Bar Chart</h3>
+                  <p>Compares categories using horizontal bars.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Area Charts -->
+          <div class="chart-group">
+            <h2>03. Area Charts</h2>
+
+            <div class="chart-grid">
+              <div class="chart-card">
+                <img
+                  src="img/charts/area-normal.png"
+                  alt="Average Views by Year"
+                  class="chart-image"
+                />
+                <div class="chart-info">
+                  <h3>Normal Area Chart</h3>
+                  <p>Highlights changes in values over time.</p>
+                </div>
+              </div>
+
+              <div class="chart-card">
+                <img
+                  src="img/charts/area-stacked.png"
+                  alt="Stacked Average Views by Year"
+                  class="chart-image"
+                />
+                <div class="chart-info">
+                  <h3>Stacked Area Chart</h3>
+                  <p>Shows cumulative trends across multiple series.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Other Charts -->
+          <div class="chart-group">
+            <h2>04. Other Charts</h2>
+
+            <div class="chart-grid">
+              <!-- <div class="chart-card">
+                <div class="chart-placeholder">Single Value Chart</div>
+                <div class="chart-info">
+                  <h3>Single Value Chart</h3>
+                  <p>Displays one important business metric.</p>
+                </div>
+              </div> -->
+
+              <div class="chart-card">
+                <img
+                  src="img/charts/scatter.png"
+                  alt="Followers vs Views Scatter Plot"
+                  class="chart-image"
+                />
+                <div class="chart-info">
+                  <h3>Scatter Plot</h3>
+                  <p>Shows relationships between two numerical variables.</p>
+                </div>
+              </div>
+
+              <div class="chart-card">
+                <img
+                  src="img/charts/pie.png"
+                  alt="Followers Distribution by Channel"
+                  class="chart-image"
+                />
+                <div class="chart-info">
+                  <h3>Pie Chart</h3>
+                  <p>Shows proportions of a whole.</p>
+                </div>
+              </div>
+
+              <div class="chart-card">
+                <img
+                  src="img/charts/donut.png"
+                  alt="YouTube Followers Doughnut Chart"
+                  class="chart-image"
+                />
+                <div class="chart-info">
+                  <h3>Donut Chart</h3>
+                  <p>Shows proportions using a ring-shaped chart.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- UI Components Section -->
+        <section class="content components-section" id="components">
+          <p class="eyebrow">DESIGN SYSTEM</p>
+          <h1>UI Components</h1>
+
+          <p class="description">
+            A collection of reusable interface components for consistent user
+            experiences.
+          </p>
+
+          <!-- 01. Buttons -->
+          <div class="component-group">
+            <h2>01. Buttons</h2>
+            <p class="component-description">
+              Buttons allow users to perform actions and interact with the
+              interface.
+            </p>
+
+            <div class="component-card">
+              <h3>Button Variants</h3>
+
+              <div class="component-demo">
+                <button class="ui-btn ui-btn-primary">Primary</button>
+                <button class="ui-btn ui-btn-secondary">Secondary</button>
+                <button class="ui-btn ui-btn-outline">Outline</button>
+                <button class="ui-btn ui-btn-danger">Danger</button>
+                <button class="ui-btn ui-btn-primary" disabled>Disabled</button>
+              </div>
+
+              <h3>Button Sizes</h3>
+              <div class="component-demo">
+                <button class="ui-btn ui-btn-primary ui-btn-small">
+                  Small
+                </button>
+                <button class="ui-btn ui-btn-primary">Medium</button>
+                <button class="ui-btn ui-btn-primary ui-btn-large">
+                  Large
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 02. Input Fields -->
+          <div class="component-group">
+            <h2>02. Input Fields</h2>
+            <p class="component-description">
+              Input fields allow users to enter and submit information.
+            </p>
+
+            <div class="component-card">
+              <h3>Text Input</h3>
+
+              <div class="input-demo">
+                <label for="username">Username</label>
+                <input
+                  type="text"
+                  id="username"
+                  class="ui-input"
+                  placeholder="Enter your username"
+                />
+
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="ui-input"
+                  placeholder="example@email.com"
+                />
+
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  class="ui-input"
+                  placeholder="Enter your password"
+                />
+
+                <label for="disabled-input">Disabled Input</label>
+                <input
+                  type="text"
+                  id="disabled-input"
+                  class="ui-input"
+                  placeholder="Disabled"
+                  disabled
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- 03. Dropdowns -->
+          <div class="component-group">
+            <h2>03. Dropdowns & Select</h2>
+            <p class="component-description">
+              Dropdowns allow users to select an option from a list.
+            </p>
+
+            <div class="component-card">
+              <h3>Select Menu</h3>
+
+              <div class="input-demo">
+                <label for="category">Select Category</label>
+
+                <select id="category" class="ui-input">
+                  <option>Choose a category</option>
+                  <option>Gaming</option>
+                  <option>Music</option>
+                  <option>Entertainment</option>
+                  <option>Education</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- 04. Checkboxes & Radio Buttons -->
+          <div class="component-group">
+            <h2>04. Checkboxes & Radio Buttons</h2>
+            <p class="component-description">
+              These controls allow users to select one or multiple options.
+            </p>
+
+            <div class="component-card">
+              <h3>Checkboxes</h3>
+
+              <div class="control-demo">
+                <label class="ui-control">
+                  <input type="checkbox" checked />
+                  Gaming
+                </label>
+
+                <label class="ui-control">
+                  <input type="checkbox" />
+                  Music
+                </label>
+
+                <label class="ui-control">
+                  <input type="checkbox" />
+                  Education
+                </label>
+              </div>
+
+              <h3>Radio Buttons</h3>
+
+              <div class="control-demo">
+                <label class="ui-control">
+                  <input type="radio" name="plan" checked />
+                  Free
+                </label>
+
+                <label class="ui-control">
+                  <input type="radio" name="plan" />
+                  Premium
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- 05. Toggle Switches -->
+          <div class="component-group">
+            <h2>05. Toggle Switches</h2>
+            <p class="component-description">
+              Toggle switches allow users to turn settings on or off.
+            </p>
+
+            <div class="component-card">
+              <h3>Switch Variants</h3>
+
+              <div class="control-demo">
+                <label class="ui-switch">
+                  <input type="checkbox" checked />
+                  <span class="ui-slider"></span>
+                </label>
+                <span>Notifications Enabled</span>
+
+                <label class="ui-switch">
+                  <input type="checkbox" />
+                  <span class="ui-slider"></span>
+                </label>
+                <span>Notifications Disabled</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 06. Cards -->
+          <div class="component-group">
+            <h2>06. Cards</h2>
+            <p class="component-description">
+              Cards organize related information into separate containers.
+            </p>
+
+            <div class="ui-card-grid">
+              <div class="ui-card">
+                <p class="ui-card-label">TOTAL SUBSCRIBERS</p>
+                <h3>125.8M</h3>
+                <span class="ui-positive">+12.5% this month</span>
+              </div>
+
+              <div class="ui-card">
+                <p class="ui-card-label">TOTAL VIEWS</p>
+                <h3>2.4B</h3>
+                <span class="ui-positive">+8.2% this month</span>
+              </div>
+
+              <div class="ui-card">
+                <p class="ui-card-label">TOTAL LIKES</p>
+                <h3>85.6M</h3>
+                <span class="ui-negative">-2.4% this month</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 07. Badges -->
+          <div class="component-group">
+            <h2>07. Badges</h2>
+            <p class="component-description">
+              Badges display short labels and status information.
+            </p>
+
+            <div class="component-card">
+              <h3>Badge Variants</h3>
+
+              <div class="component-demo">
+                <span class="ui-badge badge-success">Active</span>
+                <span class="ui-badge badge-warning">Pending</span>
+                <span class="ui-badge badge-danger">Inactive</span>
+                <span class="ui-badge badge-info">New</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 08. Alerts -->
+          <div class="component-group">
+            <h2>08. Alerts</h2>
+            <p class="component-description">
+              Alerts provide important feedback and notifications to users.
+            </p>
+
+            <div class="component-card">
+              <div class="ui-alert alert-success">
+                <strong>Success!</strong> Your changes have been saved.
+              </div>
+
+              <div class="ui-alert alert-warning">
+                <strong>Warning!</strong> Please review your information.
+              </div>
+
+              <div class="ui-alert alert-danger">
+                <strong>Error!</strong> Something went wrong.
+              </div>
+
+              <div class="ui-alert alert-info">
+                <strong>Information:</strong> New updates are available.
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
