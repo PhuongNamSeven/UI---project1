@@ -1023,8 +1023,9 @@ select.ui-input {
 
 .preview-chart-image {
     display: block;
-    width: 100%;
+    width: 50%;
     height: auto;
     object-fit: contain;
     border-radius: 8px;
+    margin: 0 auto;
 }
