@@ -1029,3 +1029,21 @@ select.ui-input {
     border-radius: 8px;
     margin: 0 auto;
 }
+
+.preview-chart-image {
+    display: block;
+    width: 50%;
+    aspect-ratio: 16 / 10;
+    object-fit: contain;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.preview-chart-title {
+    color: #ff7119;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
